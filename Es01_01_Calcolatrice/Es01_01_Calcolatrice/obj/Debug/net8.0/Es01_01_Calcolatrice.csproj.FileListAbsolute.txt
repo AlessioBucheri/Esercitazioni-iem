@@ -1,0 +1,14 @@
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_01_Calcolatrice\Es01_01_Calcolatrice\obj\Debug\net8.0\Es01_01_Calcolatrice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_01_Calcolatrice\Es01_01_Calcolatrice\obj\Debug\net8.0\Es01_01_Calcolatrice.AssemblyInfoInputs.cache
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_01_Calcolatrice\Es01_01_Calcolatrice\obj\Debug\net8.0\Es01_01_Calcolatrice.AssemblyInfo.cs
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_01_Calcolatrice\Es01_01_Calcolatrice\obj\Debug\net8.0\Es01_01_Calcolatrice.csproj.CoreCompileInputs.cache
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_01_Calcolatrice\Es01_01_Calcolatrice\bin\Debug\net8.0\Es01_01_Calcolatrice.exe
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_01_Calcolatrice\Es01_01_Calcolatrice\bin\Debug\net8.0\Es01_01_Calcolatrice.deps.json
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_01_Calcolatrice\Es01_01_Calcolatrice\bin\Debug\net8.0\Es01_01_Calcolatrice.runtimeconfig.json
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_01_Calcolatrice\Es01_01_Calcolatrice\bin\Debug\net8.0\Es01_01_Calcolatrice.dll
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_01_Calcolatrice\Es01_01_Calcolatrice\bin\Debug\net8.0\Es01_01_Calcolatrice.pdb
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_01_Calcolatrice\Es01_01_Calcolatrice\obj\Debug\net8.0\Es01_01_Calcolatrice.dll
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_01_Calcolatrice\Es01_01_Calcolatrice\obj\Debug\net8.0\refint\Es01_01_Calcolatrice.dll
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_01_Calcolatrice\Es01_01_Calcolatrice\obj\Debug\net8.0\Es01_01_Calcolatrice.pdb
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_01_Calcolatrice\Es01_01_Calcolatrice\obj\Debug\net8.0\Es01_01_Calcolatrice.genruntimeconfig.cache
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_01_Calcolatrice\Es01_01_Calcolatrice\obj\Debug\net8.0\ref\Es01_01_Calcolatrice.dll

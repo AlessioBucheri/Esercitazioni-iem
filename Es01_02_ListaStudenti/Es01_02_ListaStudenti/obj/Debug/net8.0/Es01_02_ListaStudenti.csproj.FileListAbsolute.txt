@@ -1,0 +1,14 @@
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_02_ListaStudenti\Es01_02_ListaStudenti\bin\Debug\net8.0\Es01_02_ListaStudenti.exe
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_02_ListaStudenti\Es01_02_ListaStudenti\bin\Debug\net8.0\Es01_02_ListaStudenti.deps.json
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_02_ListaStudenti\Es01_02_ListaStudenti\bin\Debug\net8.0\Es01_02_ListaStudenti.runtimeconfig.json
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_02_ListaStudenti\Es01_02_ListaStudenti\bin\Debug\net8.0\Es01_02_ListaStudenti.dll
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_02_ListaStudenti\Es01_02_ListaStudenti\bin\Debug\net8.0\Es01_02_ListaStudenti.pdb
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_02_ListaStudenti\Es01_02_ListaStudenti\obj\Debug\net8.0\Es01_02_ListaStudenti.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_02_ListaStudenti\Es01_02_ListaStudenti\obj\Debug\net8.0\Es01_02_ListaStudenti.AssemblyInfoInputs.cache
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_02_ListaStudenti\Es01_02_ListaStudenti\obj\Debug\net8.0\Es01_02_ListaStudenti.AssemblyInfo.cs
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_02_ListaStudenti\Es01_02_ListaStudenti\obj\Debug\net8.0\Es01_02_ListaStudenti.csproj.CoreCompileInputs.cache
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_02_ListaStudenti\Es01_02_ListaStudenti\obj\Debug\net8.0\Es01_02_ListaStudenti.dll
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_02_ListaStudenti\Es01_02_ListaStudenti\obj\Debug\net8.0\refint\Es01_02_ListaStudenti.dll
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_02_ListaStudenti\Es01_02_ListaStudenti\obj\Debug\net8.0\Es01_02_ListaStudenti.pdb
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_02_ListaStudenti\Es01_02_ListaStudenti\obj\Debug\net8.0\Es01_02_ListaStudenti.genruntimeconfig.cache
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_02_ListaStudenti\Es01_02_ListaStudenti\obj\Debug\net8.0\ref\Es01_02_ListaStudenti.dll
