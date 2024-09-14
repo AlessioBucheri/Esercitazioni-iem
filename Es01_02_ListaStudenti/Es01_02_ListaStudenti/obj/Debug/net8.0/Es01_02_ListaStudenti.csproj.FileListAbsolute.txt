@@ -12,3 +12,4 @@ C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_02_ListaStudenti\Es01_0
 C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_02_ListaStudenti\Es01_02_ListaStudenti\obj\Debug\net8.0\Es01_02_ListaStudenti.pdb
 C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_02_ListaStudenti\Es01_02_ListaStudenti\obj\Debug\net8.0\Es01_02_ListaStudenti.genruntimeconfig.cache
 C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_02_ListaStudenti\Es01_02_ListaStudenti\obj\Debug\net8.0\ref\Es01_02_ListaStudenti.dll
+C:\Users\Utente\Desktop\net-iemme-ava\Esercitazioni\Es01_02_ListaStudenti\Es01_02_ListaStudenti\obj\Debug\net8.0\Es01_02_ListaStudenti.sourcelink.json
