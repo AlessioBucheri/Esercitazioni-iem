@@ -11,7 +11,6 @@ namespace Es01_02_ListaStudenti.classes
         public string? Facoltà { get; set; }
 
         public List<Studente> Elenco { get; set; } = new List<Studente>();
-
         public void AggiungiStudente(Studente studente)
         {
             Elenco.Add(studente);
@@ -30,10 +29,14 @@ namespace Es01_02_ListaStudenti.classes
             return Elenco.FirstOrDefault(s => s.Nome.Equals(nome, StringComparison.OrdinalIgnoreCase));
         }
 
-        public static void RimuoviStudente(List<Studente> Elenco, string nome, string cognome)
+        public bool EliminaStudente(string nome)
         {
-            Elenco.RemoveAll(s => s.Nome == nome && s.Cognome == cognome);
-        }
+            Studente studenteDaEliminare = Elenco.FirstOrDefault(s => s.Nome.Equals(nome, StringComparison.OrdinalIgnoreCase) || s.Cognome.Equals(nome, StringComparison.OrdinalIgnoreCase));
+            if (studenteDaEliminare == null)
+                return false;
 
+            bool rimosso = Elenco.Remove(studenteDaEliminare);
+            return rimosso;
+        }
     }
 }

@@ -10,6 +10,7 @@ namespace Es01_02_ListaStudenti
             bool insAbi = true;
             Università uni = new Università();
 
+            #region INIZIO GESTIONALE STUDENTI
             while (insAbi)
             {
                 Console.WriteLine("BENVENUTO NEL GESTIONALE STUDENTI\n" +
@@ -25,15 +26,15 @@ namespace Es01_02_ListaStudenti
 
                 switch (select)
                 {
-                    case "1":
-                        
+                    #region 1 - AGGIUNTA STUDENTE
+                    case "1":                        
                             Console.Write("Inserisci il nome: ");
                             string varNome = Console.ReadLine();
                             Console.Write("Inserisci il cognome: ");
                             string varCognome = Console.ReadLine();
                             Console.Write("Inserisci il voto: ");
                             double varVoto = Convert.ToDouble(Console.ReadLine());
-                            if (varNome != "" && varCognome != "" && varVoto >= 0 && varVoto <= 10)
+                            if (varNome != "" && varCognome != "" && varVoto >= 0 && varVoto <= 10) //verifica del voto inserito in input
                             {
                                 Studente studente = new Studente(varNome, varCognome, varVoto);
                                 uni.AggiungiStudente(studente);
@@ -44,11 +45,13 @@ namespace Es01_02_ListaStudenti
                                 Console.WriteLine("Inserimento non andato a buon fine");
                             }
                         break;
-
+                    #endregion
+                    #region 2 - STAMPA ELENCO
                     case "2":
                         uni.StampaElenco();
                         break;
-
+                    #endregion
+                    #region 3 - MODIFICA DATI STUDENTE
                     case "3":
                         Console.Write("Inserisci il nome dello studente da modificare: ");
                         string? nomeDaModificare = Console.ReadLine();
@@ -98,24 +101,45 @@ namespace Es01_02_ListaStudenti
                             Console.WriteLine("Studente non trovato.");
                         }
                         break;
+                    #endregion
+                    #region 5 - ELIMINAZIONE STUDENTE
+                    case "5":
+                        Console.Write("Inserisci il nome dello studente da eliminare: ");
+                        string? studenteDaEliminare = Console.ReadLine();
 
-                    //case "5":
-                    //    Console.Write("Inserisci il nome dello studente da eliminare: ");
-                    //    string? eliminaStudente = Console.ReadLine();
-                    //    Studente? studenteDaEliminare = uni.TrovaStudentePerNome(eliminaStudente);
-
-                    //    break;
-
+                        if (studenteDaEliminare != null)
+                        {
+                            bool risultato = uni.EliminaStudente(studenteDaEliminare);
+                            if (risultato)
+                            {
+                                Console.WriteLine("Studente eliminato con successo.");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Studente non trovato o nome non valido.");
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("Nome dello studente non valido.");
+                        }
+                        break;
+                    #endregion
+                    #region  Q - CHIUSURA GESTIONALE
                     case "Q":
                         insAbi = !insAbi;
                         Console.WriteLine("Gestionale chiuso");
                         break;
-
+                    #endregion
+                    #region CASO DI DEFAULT
                     default:
                         Console.WriteLine("Scelta non valida, riprova!");
                         break;
+                    #endregion
                 }
             }
         }
+        #endregion FINE GESTIONALE STUDENTI
+
     }
 }

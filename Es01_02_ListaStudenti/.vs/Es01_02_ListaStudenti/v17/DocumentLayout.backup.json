@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Utente\\Desktop\\net-iemme-ava\\Esercitazioni\\Es01_02_ListaStudenti\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1629888-00ED-443F-8C2D-FE4874D9B803}|Es01_02_ListaStudenti\\Es01_02_ListaStudenti.csproj|c:\\users\\utente\\desktop\\net-iemme-ava\\esercitazioni\\es01_02_listastudenti\\es01_02_listastudenti\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1629888-00ED-443F-8C2D-FE4874D9B803}|Es01_02_ListaStudenti\\Es01_02_ListaStudenti.csproj|solutionrelative:es01_02_listastudenti\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F1629888-00ED-443F-8C2D-FE4874D9B803}|Es01_02_ListaStudenti\\Es01_02_ListaStudenti.csproj|c:\\users\\utente\\desktop\\net-iemme-ava\\esercitazioni\\es01_02_listastudenti\\es01_02_listastudenti\\classes\\universit\u00E0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1629888-00ED-443F-8C2D-FE4874D9B803}|Es01_02_ListaStudenti\\Es01_02_ListaStudenti.csproj|solutionrelative:es01_02_listastudenti\\classes\\universit\u00E0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1629888-00ED-443F-8C2D-FE4874D9B803}|Es01_02_ListaStudenti\\Es01_02_ListaStudenti.csproj|c:\\users\\utente\\desktop\\net-iemme-ava\\esercitazioni\\es01_02_listastudenti\\es01_02_listastudenti\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1629888-00ED-443F-8C2D-FE4874D9B803}|Es01_02_ListaStudenti\\Es01_02_ListaStudenti.csproj|solutionrelative:es01_02_listastudenti\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1629888-00ED-443F-8C2D-FE4874D9B803}|Es01_02_ListaStudenti\\Es01_02_ListaStudenti.csproj|c:\\users\\utente\\desktop\\net-iemme-ava\\esercitazioni\\es01_02_listastudenti\\es01_02_listastudenti\\classes\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 226,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\net-iemme-ava\\Esercitazioni\\Es01_02_ListaStudenti\\Es01_02_ListaStudenti\\Program.cs",
               "RelativeDocumentMoniker": "Es01_02_ListaStudenti\\Program.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\net-iemme-ava\\Esercitazioni\\Es01_02_ListaStudenti\\Es01_02_ListaStudenti\\Program.cs*",
-              "RelativeToolTip": "Es01_02_ListaStudenti\\Program.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCQAAAAdAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\net-iemme-ava\\Esercitazioni\\Es01_02_ListaStudenti\\Es01_02_ListaStudenti\\Program.cs",
+              "RelativeToolTip": "Es01_02_ListaStudenti\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwG8AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T14:53:46.073Z",
               "IsPinned": true,
@@ -46,20 +46,20 @@
               "RelativeDocumentMoniker": "Es01_02_ListaStudenti\\classes\\Studente.cs",
               "ToolTip": "C:\\Users\\Utente\\Desktop\\net-iemme-ava\\Esercitazioni\\Es01_02_ListaStudenti\\Es01_02_ListaStudenti\\classes\\Studente.cs",
               "RelativeToolTip": "Es01_02_ListaStudenti\\classes\\Studente.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA5wBgAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-14T16:24:05.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Universit\u00E0.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\net-iemme-ava\\Esercitazioni\\Es01_02_ListaStudenti\\Es01_02_ListaStudenti\\classes\\Universit\u00E0.cs",
               "RelativeDocumentMoniker": "Es01_02_ListaStudenti\\classes\\Universit\u00E0.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\net-iemme-ava\\Esercitazioni\\Es01_02_ListaStudenti\\Es01_02_ListaStudenti\\classes\\Universit\u00E0.cs",
-              "RelativeToolTip": "Es01_02_ListaStudenti\\classes\\Universit\u00E0.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAcwCEAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\net-iemme-ava\\Esercitazioni\\Es01_02_ListaStudenti\\Es01_02_ListaStudenti\\classes\\Universit\u00E0.cs*",
+              "RelativeToolTip": "Es01_02_ListaStudenti\\classes\\Universit\u00E0.cs*",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwCEAAACAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-14T14:59:51.277Z",
               "EditorCaption": ""
