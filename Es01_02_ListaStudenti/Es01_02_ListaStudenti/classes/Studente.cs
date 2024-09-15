@@ -20,9 +20,10 @@ namespace Es01_02_ListaStudenti.classes
         public override string ToString()
         {
             return $"[STUDENTE]\n" +
-                $"Nome: {Nome}\n" +
-                $"Cognome: {Cognome}\n" +
-                $"Voto:{Voto}";
+                $"- Nome: {Nome}\n" +
+                $"- Cognome: {Cognome}\n" +
+                $"- Voto:{Voto}\n" +
+                $"|----------------------|";
         }
 
         public void StampaDettaglio()

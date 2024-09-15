@@ -13,15 +13,16 @@ namespace Es01_02_ListaStudenti
             #region INIZIO GESTIONALE STUDENTI
             while (insAbi)
             {
-                Console.WriteLine("BENVENUTO NEL GESTIONALE STUDENTI\n" +
-                    "\n" +
-                    "Che operazione vuoi fare?\n" +
-                    "1 - Inserire un nuovo studente\n" +
-                    "2 - Visualizzare tutti gli studenti\n" +
-                    "3 - Modificare i dati di uno studente\n" +
-                    "4 - Filtrare e visualizzare gli studenti in base a un intervallo di voti\n" +
-                    "5 - Eliminare uno studente dalla lista\n" +
-                    "Q - Uscita");
+                Console.WriteLine("| BENVENUTO NEL GESTIONALE STUDENTI\n" +
+                    "|\n" +
+                    "| Che operazione vuoi fare?\n" +
+                    "| 1 - Inserire un nuovo studente\n" +
+                    "| 2 - Visualizzare tutti gli studenti\n" +
+                    "| 3 - Modificare i dati di uno studente\n" +
+                    "| 4 - Filtrare e visualizzare gli studenti in base a un intervallo di voti\n" +
+                    "| 5 - Eliminare uno studente dalla lista\n" +
+                    "| Q - Uscita\n" +
+                    "|______________________________________________________________________________|");
                 string? select = Console.ReadLine();
 
                 switch (select)
@@ -102,6 +103,10 @@ namespace Es01_02_ListaStudenti
                         }
                         break;
                     #endregion
+                    case "4":
+                        Console.WriteLine("Scegli il range di voti");
+                        uni.StampaElencoRangeVoti();
+                        break;
                     #region 5 - ELIMINAZIONE STUDENTE
                     case "5":
                         Console.Write("Inserisci il nome dello studente da eliminare: ");

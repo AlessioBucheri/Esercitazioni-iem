@@ -38,5 +38,21 @@ namespace Es01_02_ListaStudenti.classes
             bool rimosso = Elenco.Remove(studenteDaEliminare);
             return rimosso;
         }
+
+        public void StampaElencoRangeVoti()
+        {
+            Console.Write("Scegli il voto inferiore: ");
+            int min = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Scegli il voto superiore: ");
+            int max = Convert.ToInt32(Console.ReadLine());
+            foreach (Studente studente in Elenco)
+            {
+                if (studente.Voto >= min && studente.Voto <= max)
+                { 
+                    Console.WriteLine($"L'elenco degli studenti con voto compreso tra {min} e {max} é:");
+                    Console.WriteLine(studente.ToString());
+                }
+            }
+        }
     }
 }
