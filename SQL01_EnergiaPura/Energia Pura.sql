@@ -1,3 +1,4 @@
+
 CREATE TABLE Membro(
 	membroID INT PRIMARY KEY IDENTITY(1,1),
 	codice_abbonamento INT NOT NULL UNIQUE,
@@ -439,7 +440,51 @@ SELECT *
 	FROM Membro
 	WHERE nome = 'Alessio';
 --2.	Scrivi una stored procedure per aggiornare lo stato di un'attrezzatura (ad esempio, disponibile, in manutenzione, fuori servizio).
+CREATE PROCEDURE CambioStatoAttrezzatura 
+	@NewStato VARCHAR(15),
+	@AttrezzaturaID INT
+AS
+	BEGIN
+		UPDATE Attrezzatura
+		SET stato = @NewStato
+		WHERE attrezzaturaID = @AttrezzaturaID;
+	END
+SELECT * FROM Attrezzatura;
+EXEC CambioStatoAttrezzatura @AttrezzaturaID = 1, @NewStato = 'Disponibile';
 --3.	Scrivi una stored procedure che consenta a un membro di prenotare una classe specifica.
+CREATE PROCEDURE InsertPrenotazione
+	@Numero_prenotazione INT, 
+	@MembroRIF INT, 
+	@ClasseRIF INT
+AS
+	BEGIN 
+		INSERT INTO Prenotazione( numero_prenotazione, membroRIF, classeRIF) VALUES
+			(@Numero_prenotazione, @MembroRIF, @ClasseRIF)
+	END
+EXEC InsertPrenotazione @Numero_prenotazione = 1122, @MembroRIF = 5, @ClasseRIF = 17;
+SELECT * FROM Prenotazione;
 --4.	sql
 --5.	Scrivi una stored procedure per permettere ai membri di cancellare una prenotazione esistente.
+CREATE PROCEDURE DeletePrenotazione
+	@NumeroPrenotazione INT
+AS
+	BEGIN
+		DELETE
+		FROM Prenotazione
+		WHERE numero_prenotazione = @NumeroPrenotazione
+	END
+EXEC DeletePrenotazione @NumeroPrenotazione = 1003;
+SELECT * FROM Prenotazione
 --6.	Scrivi una stored procedure che restituisce il numero di classi condotte da un istruttore specifico.
+CREATE PROCEDURE ClassiIstruttore
+	@CodiceIstruttore INT
+AS
+	BEGIN
+		SELECT *
+		FROM Classe 
+		JOIN Istruttore ON Classe.istruttoreRIF = Istruttore.istruttoreID
+		WHERE Istruttore.identificativo = @CodiceIstruttore
+	END
+
+SELECT * FROM Istruttore;
+EXEC ClassiIstruttore @CodiceIstruttore = 201;
