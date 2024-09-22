@@ -7,7 +7,7 @@ namespace Es01_01_Calcolatrice
         static void Main(string[] args)
         {
             bool insAbi = true;
-            double inputUtente ;
+            double inputUtente;
             double inputUtenteDue;
 
             while (insAbi)
@@ -25,7 +25,7 @@ namespace Es01_01_Calcolatrice
                     "------------------------------------------------------------\n");
                 string? inputOperazione = Console.ReadLine();
                 inputOperazione = inputOperazione.ToUpper();
-                
+
                 try
                 {
                     switch (inputOperazione)
@@ -35,8 +35,8 @@ namespace Es01_01_Calcolatrice
                             inputUtente = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("Inserisci il secondo numero:");
                             inputUtenteDue = Convert.ToDouble(Console.ReadLine());
-                            double somma = inputUtente + inputUtenteDue;
-                            Console.WriteLine($"Il risultato è {somma}");                            
+                            double somma = Calcolatrice.Somma(inputUtente, inputUtenteDue);
+                            Console.WriteLine($"Il risultato è {somma}");
                             break;
 
                         case "S":
@@ -44,7 +44,7 @@ namespace Es01_01_Calcolatrice
                             inputUtente = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("Inserisci il secondo numero:");
                             inputUtenteDue = Convert.ToDouble(Console.ReadLine());
-                            double sottrazione = inputUtente - inputUtenteDue;
+                            double sottrazione = Calcolatrice.Sottrazione(inputUtente, inputUtenteDue);
                             Console.WriteLine($"Il risultato è {sottrazione}");
                             break;
 
@@ -53,7 +53,7 @@ namespace Es01_01_Calcolatrice
                             inputUtente = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("Inserisci il secondo numero:");
                             inputUtenteDue = Convert.ToDouble(Console.ReadLine());
-                            double moltiplicazione = inputUtente * inputUtenteDue;
+                            double moltiplicazione = Calcolatrice.Moltiplicazione(inputUtente, inputUtenteDue);
                             Console.WriteLine($"Il risultato è {moltiplicazione}");
                             break;
 
@@ -65,11 +65,11 @@ namespace Es01_01_Calcolatrice
 
                             if (inputUtenteDue != 0)
                             {
-                                double divisione = inputUtente / inputUtenteDue;
+                                double divisione = (double)Calcolatrice.Divisione(inputUtente, inputUtenteDue);
                                 Console.WriteLine($"Il risultato è {divisione}");
                             }
                             else
-                            { 
+                            {
                                 Console.WriteLine("Non si può dividere per 0!");
                             }
                             break;
@@ -82,7 +82,7 @@ namespace Es01_01_Calcolatrice
                             double potenza = Math.Pow(inputUtente, inputUtenteDue);
                             Console.WriteLine($"La potenza di {inputUtente} elevato a {inputUtenteDue} è: {potenza}");
                             break;
-                        
+
                         case "R":
                             Console.WriteLine("Inserisci il numero");
                             inputUtente = Convert.ToDouble(Console.ReadLine());
@@ -106,7 +106,6 @@ namespace Es01_01_Calcolatrice
                     Console.WriteLine("Formato non riconosciuto");
                 }
             }
-
         }
     }
 }

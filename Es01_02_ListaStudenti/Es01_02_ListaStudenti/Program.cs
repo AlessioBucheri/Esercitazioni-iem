@@ -35,7 +35,7 @@ namespace Es01_02_ListaStudenti
                             string varCognome = Console.ReadLine();
                             Console.Write("Inserisci il voto: ");
                             double varVoto = Convert.ToDouble(Console.ReadLine());
-                            if (varNome != "" && varCognome != "" && varVoto >= 0 && varVoto <= 10) //verifica del voto inserito in input
+                            if (varNome != "" && varCognome != "") //verifica del voto inserito in input
                             {
                                 Studente studente = new Studente(varNome, varCognome, varVoto);
                                 uni.AggiungiStudente(studente);
@@ -103,10 +103,12 @@ namespace Es01_02_ListaStudenti
                         }
                         break;
                     #endregion
+                    #region 3 - RANGE DI VOTI
                     case "4":
                         Console.WriteLine("Scegli il range di voti");
                         uni.StampaElencoRangeVoti();
                         break;
+                    #endregion
                     #region 5 - ELIMINAZIONE STUDENTE
                     case "5":
                         Console.Write("Inserisci il nome dello studente da eliminare: ");

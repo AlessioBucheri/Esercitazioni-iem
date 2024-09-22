@@ -10,7 +10,7 @@ namespace Es01_02_ListaStudenti.classes
         public string? Indirizzo { get; set; }
         public string? Facoltà { get; set; }
 
-        public List<Studente> Elenco { get; set; } = new List<Studente>();
+        private List<Studente> Elenco { get; set; } = new List<Studente>();
         public void AggiungiStudente(Studente studente)
         {
             Elenco.Add(studente);
@@ -26,13 +26,13 @@ namespace Es01_02_ListaStudenti.classes
 
         public Studente? TrovaStudentePerNome(string nome)
         {
-            return Elenco.FirstOrDefault(s => s.Nome.Equals(nome, StringComparison.OrdinalIgnoreCase));
+            return Elenco.FirstOrDefault(s => s.Nome != null && s.Nome.Equals(nome, StringComparison.OrdinalIgnoreCase));
         }
 
         public bool EliminaStudente(string nome)
         {
-            Studente studenteDaEliminare = Elenco.FirstOrDefault(s => s.Nome.Equals(nome, StringComparison.OrdinalIgnoreCase) || s.Cognome.Equals(nome, StringComparison.OrdinalIgnoreCase));
-            if (studenteDaEliminare == null)
+            Studente studenteDaEliminare = Elenco.FirstOrDefault(s => s.Nome != null && s.Nome.Equals(nome, StringComparison.OrdinalIgnoreCase) || s.Cognome != null && s.Cognome.Equals(nome, StringComparison.OrdinalIgnoreCase));
+            if (studenteDaEliminare == null) 
                 return false;
 
             bool rimosso = Elenco.Remove(studenteDaEliminare);

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Utente\\Desktop\\net-iemme-ava\\Esercitazioni\\Es01_02_CorrezioneListaStudenti\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{457E45C3-3CCA-42CE-99A1-61F1E7D4723B}|Es01_CorrezioneGestioneStudenti\\Es01_CorrezioneGestioneStudenti.csproj|c:\\users\\utente\\desktop\\net-iemme-ava\\esercitazioni\\es01_02_correzionelistastudenti\\es01_correzionegestionestudenti\\classes\\gestorestudente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457E45C3-3CCA-42CE-99A1-61F1E7D4723B}|Es01_CorrezioneGestioneStudenti\\Es01_CorrezioneGestioneStudenti.csproj|solutionrelative:es01_correzionegestionestudenti\\classes\\gestorestudente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457E45C3-3CCA-42CE-99A1-61F1E7D4723B}|Es01_CorrezioneGestioneStudenti\\Es01_CorrezioneGestioneStudenti.csproj|c:\\users\\utente\\desktop\\net-iemme-ava\\esercitazioni\\es01_02_correzionelistastudenti\\es01_correzionegestionestudenti\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457E45C3-3CCA-42CE-99A1-61F1E7D4723B}|Es01_CorrezioneGestioneStudenti\\Es01_CorrezioneGestioneStudenti.csproj|solutionrelative:es01_correzionegestionestudenti\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457E45C3-3CCA-42CE-99A1-61F1E7D4723B}|Es01_CorrezioneGestioneStudenti\\Es01_CorrezioneGestioneStudenti.csproj|c:\\users\\utente\\desktop\\net-iemme-ava\\esercitazioni\\es01_02_correzionelistastudenti\\es01_correzionegestionestudenti\\classes\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457E45C3-3CCA-42CE-99A1-61F1E7D4723B}|Es01_CorrezioneGestioneStudenti\\Es01_CorrezioneGestioneStudenti.csproj|solutionrelative:es01_correzionegestionestudenti\\classes\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 246,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GestoreStudente.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\net-iemme-ava\\Esercitazioni\\Es01_02_CorrezioneListaStudenti\\Es01_CorrezioneGestioneStudenti\\classes\\GestoreStudente.cs",
+              "RelativeDocumentMoniker": "Es01_CorrezioneGestioneStudenti\\classes\\GestoreStudente.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\net-iemme-ava\\Esercitazioni\\Es01_02_CorrezioneListaStudenti\\Es01_CorrezioneGestioneStudenti\\classes\\GestoreStudente.cs",
+              "RelativeToolTip": "Es01_CorrezioneGestioneStudenti\\classes\\GestoreStudente.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAIwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T09:25:12.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Studente.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\net-iemme-ava\\Esercitazioni\\Es01_02_CorrezioneListaStudenti\\Es01_CorrezioneGestioneStudenti\\classes\\Studente.cs",
+              "RelativeDocumentMoniker": "Es01_CorrezioneGestioneStudenti\\classes\\Studente.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\net-iemme-ava\\Esercitazioni\\Es01_02_CorrezioneListaStudenti\\Es01_CorrezioneGestioneStudenti\\classes\\Studente.cs",
+              "RelativeToolTip": "Es01_CorrezioneGestioneStudenti\\classes\\Studente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T09:25:06.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\net-iemme-ava\\Esercitazioni\\Es01_02_CorrezioneListaStudenti\\Es01_CorrezioneGestioneStudenti\\Program.cs",
+              "RelativeDocumentMoniker": "Es01_CorrezioneGestioneStudenti\\Program.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\net-iemme-ava\\Esercitazioni\\Es01_02_CorrezioneListaStudenti\\Es01_CorrezioneGestioneStudenti\\Program.cs",
+              "RelativeToolTip": "Es01_CorrezioneGestioneStudenti\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T08:37:00.66Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
