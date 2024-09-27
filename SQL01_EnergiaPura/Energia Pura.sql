@@ -281,7 +281,7 @@ SELECT *
 	WHERE Membro.nome = 'Mario' AND Membro.cognome = 'Rossi';
 
 --13. Recupera l'elenco degli istruttori che conducono più di 5 classi alla settimana
-SELECT Istruttore.cognome, COUNT(*)
+SELECT Istruttore.cognome, COUNT(*) AS Numero_Classi
 	FROM Istruttore
 	JOIN Classe ON Istruttore.istruttoreID = Classe.istruttoreRIF
 	GROUP BY Istruttore.cognome
